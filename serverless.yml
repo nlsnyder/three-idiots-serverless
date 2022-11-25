@@ -12,6 +12,6 @@ functions:
     handler: handler.handler
     url:
       cors: true
-    timeout: 120
+    timeout: 30
     events:
       - httpApi: '*'
