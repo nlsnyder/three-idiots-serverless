@@ -10,5 +10,8 @@ provider:
 functions:
   api:
     handler: handler.handler
+    url:
+      cors: true
+    timeout: 120
     events:
       - httpApi: '*'
